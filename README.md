@@ -52,6 +52,8 @@ yarn install:husky
 1. Give GH Pages some minutes, your site should be live on `https://<your-username>.github.io/<your-repo-name>`
 1. Enjoy :)
 
+#### Asegurate de tener permisos de lectura y escritura en <tu_repo>settings/actions
+
 ### Q: How do I disable auto publish to GitHub Pages?
 
 Remove the `.github/workflows/publish.yml` file.

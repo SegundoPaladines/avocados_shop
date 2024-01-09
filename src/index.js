@@ -13,7 +13,6 @@ const formatPrice = (price) => {
     return res;
 }
 
-
 const getAvos = () => {
     fetch(`${baseUrl}/api/avo`)
         .then((r) => r.json())

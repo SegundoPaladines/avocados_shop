@@ -52,6 +52,24 @@ yarn install:husky
 1. Give GH Pages some minutes, your site should be live on `https://<your-username>.github.io/<your-repo-name>`
 1. Enjoy :)
 
+### debes cambiar el base url del archivo snowpack.config.js coloca la url de tu repositorio
+
+ejemplo para este caso:
+
+```javascript
+/** @type {import("snowpack").SnowpackUserConfig } */
+module.exports = {
+  mount: {
+    public: '/',
+    src: '/_dist_',
+  },
+  buildOptions: {
+    baseUrl: 'https://SegundoPaladines.github.io/avocados_shop',
+  },
+}
+```
+
+
 #### Asegurate de tener permisos de lectura y escritura en <tu_repo>settings/actions
 
 ### Q: How do I disable auto publish to GitHub Pages?

@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/SegundoPaladines/avocados_shop",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/SegundoPaladines/avocados_shop",
+  "homepage": "https://segundopaladines.github.io/avocados_shop/",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
